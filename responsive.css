@@ -1,0 +1,129 @@
+.slicknav_menu{
+    display:none;
+}
+
+@media screen and (max-width: 992px) {
+    #menu{
+        display:none;
+    }
+    
+    .slider{
+        margin-top: 112px
+    }
+    header{
+        
+        margin-top:-112px;
+        background-color:deepskyblue;
+    }
+    .slicknav_menu{
+        margin-right: 20px;
+        display:inline-block;
+        position:fixed;
+        z-index: 1000;
+        right:0;
+        background:transparent;
+        margin-top: -80px;
+    }
+    .slicknav_btn{
+        background-color:orange;
+    }
+    .slicknav_nav{
+        background-color:deepskyblue;
+        width:200px;
+        
+        border-radius: 10%;
+    }
+    .slicknav_nav li{
+        margin:0;
+        padding:0;
+        height:3em;
+        line-height: 3em;
+        width: 200px;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+        text-align: center;
+    }
+    .slicknav_nav li a{
+        margin:0;
+        padding:0;
+        font-weight: bold;
+        text-decoration: none;
+        transition: all 0.3s ease-in;
+    }
+    .slicknav_nav li a:hover{
+        background: transparent;
+        color:rgb(8, 8, 126);
+    }
+    .logo{
+        margin-left: 20px;
+    }
+
+}
+@media screen and (max-width:887px){
+    .feature-mockup img{
+        display:none;
+    }
+    .team-social-network{
+        padding-bottom:80px;
+    }
+}
+@media screen and (max-width:450px){
+    .slider a.btn{
+        display:block;
+        
+        margin: 0 auto;
+      
+    }
+    .more-feature-area img{
+        width: 80%;
+        margin-right:20px;
+    }
+
+
+}
+@media screen  and (max-width:600px) {
+    .social-button a{
+        display:block;
+        width:94%;
+    }
+}
+@media screen and (max-width: 700px){
+    .single-feature{
+        border:none;
+        display:inline-block;
+        float:none;
+    }
+}
+@media screen and (max-width: 1000px){
+
+    .more-feature-area{
+        display:block;
+        text-align: center;
+    }
+    .more-feature-area img{
+        width: 80%;
+   
+    }
+}
+@media screen and (max-width:770px){
+    .contact-block{
+        margin-right:25px;
+    }
+    .contact-area{
+        text-align: center;
+    }
+    .contact-adress ul li{
+        display:flex;
+        justify-content: center;
+    
+    }
+
+}
+
+
+@media screen and (max-width: 990px){
+    .team-block{
+        margin-bottom: 60px;
+    }
+}
+
